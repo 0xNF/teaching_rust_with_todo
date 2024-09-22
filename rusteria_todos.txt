@@ -1,0 +1,22 @@
+[
+  {
+    "id": "01921bfa-f7dd-7042-9072-b434b8111e0e",
+    "modified": null,
+    "contents": "Buy Groceries",
+    "status": "Uncompleted"
+  },
+  {
+    "id": "01921bfb-2f54-75c3-b898-f5934050d1a1",
+    "modified": null,
+    "contents": "Feed cat",
+    "status": "Uncompleted"
+  },
+  {
+    "id": "01921bfb-bc94-7f31-81a6-a2ec745bc65e",
+    "modified": "2024-09-22T23:22:15.129233Z",
+    "contents": "Develop room temperature superconduction",
+    "status": {
+      "Completed": "2024-09-22T23:22:15.129233Z"
+    }
+  }
+]
