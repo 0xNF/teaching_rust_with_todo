@@ -6,7 +6,7 @@ use rustasteria::*;
 use std::{io::Write, process::exit};
 use uuid::Uuid;
 
-const DEFAULT_FILE_NAME: &str = "rusteria_todos.txt";
+const DEFAULT_FILE_NAME: &str = "rusteria_todos.json";
 const DEFAULT_ERROR_EXIT_CODE: i32 = -1;
 const DEFAULT_EXIT_CODE_OK: i32 = 0;
 
