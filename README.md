@@ -41,6 +41,8 @@ It was built as a way to show Rust to my coworkers.
 - Pattern matching with `match` and `if let`
 - Control flow with `if` and `else`
 - Loop with `for .. in`
+- Transforming `Option` into `Result` with `ok_or()`
+- Mapping a Result's error into a new error type
 - exiting and error codes
 - Building both a binary executable and an importable library from the same
   codebase
