@@ -46,6 +46,7 @@ It was built as a way to show Rust to my coworkers.
 - exiting and error codes
 - Building both a binary executable and an importable library from the same
   codebase
+- Simple lifetimes with `` `a ``
 
 ## Crates used
 
