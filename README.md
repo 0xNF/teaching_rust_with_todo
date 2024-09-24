@@ -46,7 +46,7 @@ It was built as a way to show Rust to my coworkers.
 - exiting and error codes
 - Building both a binary executable and an importable library from the same
   codebase
-- Simple lifetimes with `` `a ``
+- Simple lifetimes with ``<`a>``
 
 ## Crates used
 
@@ -63,3 +63,10 @@ The following crates are used:
 - add more module tests
 - Make the ToDo read and write mthods take an arbitrary filename
 - Add more filters to the `TodoFilter` and the `list` command
+    - use the v7 uuid to sort by creation time
+
+## Further reading
+
+* https://doc.rust-lang.org/rust-by-example/ja/index.html\
+* https://blog.jetbrains.com/rust/2024/09/20/how-to-learn-rust/\
+* https://doc.rust-lang.org/nomicon/

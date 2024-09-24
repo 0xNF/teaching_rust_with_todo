@@ -24,7 +24,7 @@ impl std::fmt::Display for RusteriaError {
 
 impl RusteriaError {
     pub fn is_file_not_found_error(&self) -> bool {
-        std::mem::discriminant(self) == std::mem::discriminant(&Self::NoTodoFile("".to_owned()))
+        core::mem::discriminant(self) == core::mem::discriminant(&Self::NoTodoFile("".to_owned()))
     }
 }
 impl Error for RusteriaError {}

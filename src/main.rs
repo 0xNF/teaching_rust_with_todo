@@ -1,10 +1,6 @@
-mod error;
-
 use clap::{Parser, Subcommand};
-use error::RusteriaError;
-use rustasteria::*;
+use rusteria::*;
 use std::{io::Write, process::exit};
-use uuid::Uuid;
 
 const DEFAULT_FILE_NAME: &str = "rusteria_todos.json";
 const DEFAULT_ERROR_EXIT_CODE: i32 = -1;
